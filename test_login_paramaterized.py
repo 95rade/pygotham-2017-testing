@@ -13,12 +13,12 @@ def user(request):
 
 
 def test_auth(user):
-    print 'user =', user.password
+    print ('user =', user.password)
     try:
         is_prime(user, 2)
-        print 'authenticated'
+        print ('authenticated')
     except RuntimeError:
-        print 'not authenticated'
+        print ('not authenticated')
 
 
 def test_fixture_in_conftest(func_in_conftest):

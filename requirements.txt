@@ -1,0 +1,6 @@
+Flask
+pytest
+pytest-cov
+Redis
+pylint
+tox
